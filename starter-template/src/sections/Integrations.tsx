@@ -9,6 +9,4 @@ const integrations = [
 ];
 
 export default function Integrations() {
-    return( <>
-    
-    </>)}
+    return( <div>integration</div>)}

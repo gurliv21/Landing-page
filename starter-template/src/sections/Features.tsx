@@ -21,7 +21,7 @@ export default function Features() {
         <div className="container ">
             <div className="flex justify-center"><Tag>Features</Tag></div>
             <h2 className="text-6xl font-medium text-center mt-6">where power meets {""}<span className="text-lime-400">simplicity</span></h2>
-            <div className="mt-12 grid grid-col-1 gap-8 ">
+            <div className="mt-12 grid grid-col-1 md:grid-cols-4 lg:grid-cols-3  gap-8 ">
                 <FeatureCard title="Real-time Collaboration"
                     description="work together seamlessly with conflict-free team editing"
 
@@ -57,12 +57,26 @@ export default function Features() {
                     description="Engage your clients with prototypes that react to user action"
                 >
                     <div className="aspect-video flex items-center justify-center">
-                        <h1 className="text-4xl font-extrabold text-white/20 text-center">We've achieved<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text inline-flex">incredible</span>  growth this year</h1>
+                        <h1 className="text-4xl font-extrabold text-white/20 text-center">We've achieved<span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text inline-flex"> incredible</span>  growth this year</h1>
                     </div>
                 </FeatureCard>
                 <FeatureCard title="Keyboard Quick Actions"
                     description="work together seamlessly with conflict-free team editing"
-                ></FeatureCard>
+                >
+                    
+               <div className="flex  justify-center gap-8 aspect-video">
+                    <div className="bg-neutral-300 inline-flex p-4 rounded-xl px-8 text-black">
+                        shift
+                    </div>
+                    <div className="bg-neutral-300 inline-flex p-4 rounded-xl px-4 text-black">
+                        alt
+                    </div>
+                    <div className="bg-neutral-300 inline-flex p-4 rounded-xl px-4 text-black">
+                        c
+                    </div>
+               </div>
+                    
+                </FeatureCard>
             </div>
 
         </div>
